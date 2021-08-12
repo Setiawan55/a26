@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .top-wrapper {
+    padding: 10px 10px 10px 80px;
+    max-width: 100%;
+  }
+  
+  .container-left {
+    float: left;
+    max-width: 35%;
+    margin-top: 18%;
+    text-align: left;
+  }
+  
+  .container-left h1{
+    color: #af2c0e;
+    font-size: 50px;
+  }
+
+  .container-left h3{
+    color: #cb9e78;
+    border-bottom: 5px solid #c25437;
+    margin-bottom: 10px;
+  }
+
+  .container-right {
+    float: right;
+    max-width: 65%;
+    margin-top: auto;
+  }
+
+  .container-right img{
+    max-width: 100%;
+  }
+
+  .btn{
+    margin-top:20px;
+    margin-right:10px;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .daftar{
+    background-color:#af2c0e;
+    box-shadow: 0 7px #c25437;
+  }
+
+  .daftar:hover {
+    background-color: darkred;
+    color:white;
+  }
+
+  .daftar:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .post{
+    background-color: #d37b49;
+    box-shadow: 0 7px #cb9e78;
+  }
+
+  .post:hover {
+    background-color: #c25437;
+    color:white;
+  }
+
+  .post:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
