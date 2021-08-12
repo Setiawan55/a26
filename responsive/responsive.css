@@ -71,4 +71,12 @@
     text-align: center;
     border-radius: 20px;
   }
+  
+  footer{
+        height:400px;
+    }
+
+  .form-list input{
+      width:50%;
+  }
 }
